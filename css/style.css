@@ -46,6 +46,25 @@ main > section {
   color: #fff;
   padding-top:30px;
 }
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 10px;
+  gap: 40px;
+  background-color: #255ee9;
+}
+
+.blu-button{
+  background-color:#255ee9;
+  border-color:none;
+}
+
+.white-button{
+  background-color:#fff;
+  border-color:none;
+}
 /* INZIO IMMAGINI MAIN */
 
 .img-small{
@@ -78,6 +97,8 @@ h1{
 p{
 padding: 30%;
 }
+
+
 
 
 
@@ -171,9 +192,10 @@ padding: 30%;
 }
 
 button{
-  background-color: #ffb6c1;
-  border:none;
+  background-color: #fff;
+  border-radius:50%;
   text-align: center;
+  padding: 10px 10px 10px 10px;
 }
  
 /* debug */
