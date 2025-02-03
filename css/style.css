@@ -31,7 +31,8 @@ main > section {
 }
 
 .center {
-  justify-content: center;
+  display:flex;
+  justify-content: space-around;
 }
 
 .left {
@@ -66,11 +67,11 @@ h1{
   font-size:35px;
   padding-bottom:30px;
 }
+
+
+
 /* /FINE TESTO MAIN */
-.bg-azure {
-  background-color: #1e90ff;
-  border-style:dashed;
-} 
+
 .bg-white {
   background-color: #fff;
 } 
@@ -84,10 +85,6 @@ h1{
   background-color: #23272a;
 } 
 
-.bg-pink {
-  background-color:#ee82ee;
-  border-style:dashed;
-}
 .bg-green {
   background-color: #008000;
   border-style:dashed;
@@ -179,7 +176,7 @@ height: 400px;
 flex-grow: 1;
 }
 
-.debug .bg-azure{
+/* .debug .bg-azure{
   background-color: #1e90ff;
   border-style:dashed;
-}
+} */
