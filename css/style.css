@@ -49,6 +49,23 @@ main > section {
 
 /* INIZIO TESTO MAIN */
 
+.box-container{
+width: 350px;
+height: auto;
+padding: 20px;
+}
+
+.box-text{
+  position: initial;
+  width: 100%;
+  padding: 20 0 20 0;
+
+}
+
+h1{
+  font-size:35px;
+  padding-bottom:30px;
+}
 /* /FINE TESTO MAIN */
 .bg-azure {
   background-color: #1e90ff;
