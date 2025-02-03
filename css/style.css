@@ -16,9 +16,11 @@ main > section {
 }
 
 .header {
-  background-color: #add8e6;
-  color: #000000;
+  box-sizing: content-box;
   padding: 10px;
+  background-image: url(../img/jumbo.png);
+  height: 600px;
+  background-size: cover;
 }
 
 .tab {
