@@ -41,6 +41,11 @@ main > section {
   justify-content:flex-end;
 }
 
+#text{
+  text-align: center;
+  color: #fff;
+  padding-top:30px;
+}
 /* INZIO IMMAGINI MAIN */
 
 .img-small{
@@ -68,6 +73,10 @@ padding: 20px;
 h1{
   font-size:35px;
   padding-bottom:30px;
+}
+
+p{
+padding: 30%;
 }
 
 
