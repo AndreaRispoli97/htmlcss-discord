@@ -27,7 +27,7 @@ main > section {
   display: flex;
   padding: 10px;
   border: 1px solid #000;
-  border-style: dashed;
+  border-style: none;
   background-color: #daa520;
   flex-grow: 1;
 }
@@ -54,6 +54,7 @@ ul {
   padding: 10px;
   gap: 40px;
   background-color: #255ee9;
+  color:#fff;
 }
 
 .blu-button{
@@ -69,6 +70,11 @@ ul {
 
 .img-small{
   height: 80%;
+  width: auto;
+}
+
+.img-big{
+  height: 100%;
   width: auto;
 }
 
@@ -94,8 +100,30 @@ h1{
   padding-bottom:30px;
 }
 
-p{
-padding: 30%;
+.p-text{
+padding: 30px 250px;
+}
+
+.big-button-white{
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 40%;
+  text-align: center;
+  margin-top: 20px;
+  gap: 20px;
+  margin-right:10px
+}
+
+.big-button-black{
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 40%;
+  text-align: center;
+  margin-top: 20px;
+  gap: 20px;
+  margin-right:10px
 }
 
 
@@ -150,6 +178,21 @@ padding: 30%;
   padding-right: 20%;
 }
 
+.box-finale {
+  justify-content: center;
+  padding: 20px;
+}
+
+.big-button-blue{
+  background-color: #7288da;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 40%;
+  text-align: center;
+  margin-top: 20px;
+  gap: 20px;
+  margin-right:10px
+}
 
 /* Parte Footer */
 
