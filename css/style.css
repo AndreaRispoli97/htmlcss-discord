@@ -40,23 +40,16 @@ main > section {
 
 /* INZIO IMMAGINI MAIN */
 
-/* .img-1{
-  background-image: url(../img/item1.svg);
-} */
-
-/* .img-2{
-  background-image: url(../img/item2.svg);
-} */
-
-/* .img-3{
-  background-image: url(../img/item3.svg);
-} */
-
 .img-small{
   height: 80%;
   width: auto;
 }
 
+/* /FINE IMMAGINI MAIN */
+
+/* INIZIO TESTO MAIN */
+
+/* /FINE TESTO MAIN */
 .bg-azure {
   background-color: #1e90ff;
   border-style:dashed;
