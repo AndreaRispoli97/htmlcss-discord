@@ -5,7 +5,7 @@
 }
 /* INTESTAZIONE */
 .container{
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -37,12 +37,20 @@ main > section {
   justify-content:flex-end;
 }
 
-/* INZIO COLORI MAIN */
+/* INZIO IMMAGINI MAIN */
 
 /* .img-1{
   background-image: url(../img/item1.svg);
 } */
- 
+
+/* .img-2{
+  background-image: url(../img/item2.svg);
+} */
+
+/* .img-3{
+  background-image: url(../img/item3.svg);
+} */
+
 .bg-azure {
   background-color: #1e90ff;
   border-style:dashed;
