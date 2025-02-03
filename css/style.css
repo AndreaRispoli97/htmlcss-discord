@@ -47,7 +47,7 @@ main > section {
   padding-top:30px;
 }
 
-ul {
+.lista1 {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
@@ -196,20 +196,43 @@ padding: 30px 250px;
 
 /* Parte Footer */
 
+.h1-blue{
+  color:#7288da;
+
+}
+
+.Italia{
+  width: 20px;
+}
+
+.style-none{
+  list-style-type: none;
+  padding-top:20px;
+}
+
+.capolista{
+  color:#7288da;
+  size: 15px;
+  padding-bottom:10px;
+}
+
+.lista{
+  color:#fff;
+  padding-top:10px;
+
+}
+
 .footer-big {
-  background-color: #f08080;
-  display: flex;
-  align-items: center;
-  width: 80%;
-  border-style:dashed;
+  background-color: #23272a;
+  width: 60%;
+  border-style:none;
+  padding-top:20px
 }
 
 .footer-small {
-  background-color: #20b2aa;
+  background-color: #23272a;
   display: flex;
-  border-style:dashed;
   width: 40%;
-  border-color: #fff;
 }
 
 .padding-top {
